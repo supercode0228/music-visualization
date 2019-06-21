@@ -1,0 +1,37 @@
+.option-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  border-bottom-width: 2px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.option-container-selected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  border-bottom-width: 2px;
+  height: 100px;
+  cursor: pointer;
+  border-left-style: solid;
+  border-left-width: 6px;
+  border-left-color: #00b0f0;
+}
+
+.option-label {
+  color: #a6a6a6;
+  font-size: 1.5rem;
+}
+
+.option-label-selected {
+  color: #00b0f0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+

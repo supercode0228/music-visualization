@@ -1,33 +1,267 @@
-.App {
-  text-align: center;
+html {
+  background-color: gray;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  padding: 0;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: gray;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  margin-top: 4rem;
+  width: 1600px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
 }
+
+.sidebar-container {
+  width: 200px;
+}
+
+.player-container {
+  background-color: #000;
+  width: 1000px;
+  height: 700px;
+}
+
+.controlbox-container {
+  padding: 1.3rem;
+  width: 500px;
+  height: 900px;
+}
+
+.controlbox-header {
+  padding: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #a6a6a6;
+}
+
+.controlbox-header span {
+  color: #00b0f0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.submain-one-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+}
+
+.title-time {
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #7f7f7f;
+}
+
+.title-layer {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #7f7f7f;
+}
+
+.submain-one-title div:first-child {
+  width: 140px;
+  padding-left: 20px;
+}
+
+.submain-one-item {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+}
+
+.time {
+  display: flex;
+  flex-direction: "row";
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+}
+
+.time-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: #a6a6a6;
+  background-color: #f2f2f2;
+  width: 100px;
+  height: 40px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+
+.time-button-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #00b0f0;
+  width: 100px;
+  height: 40px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #fff;
+  cursor: pointer;
+}
+
+.layer {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #a6a6a6;
+  padding-left: 10px;
+}
+
+.submain-two {
+  padding-top: 10px;
+}
+
+.preview-label {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #7f7f7f;
+  font-weight: 700;
+}
+
+.preview-box {
+  background-color: #000;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.config-box {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #7f7f7f;
+}
+
+.color-box {
+  width: 50%;
+}
+
+.colorbox-label {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #7f7f7f;
+  font-weight: 700;
+}
+
+.shape-box {
+  width: 50%;
+}
+
+.shape-box {
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #7f7f7f;
+  font-weight: 700;
+}
+
+.animation-box {
+  padding: 15px 0;
+}
+
+.animationbox-label {
+  font-size: 1.5rem;
+  color: #7f7f7f;
+  font-weight: 700;
+}
+
+.play-options {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.afterplay-box {
+  width: 50%;
+}
+
+.afterplaybox-wrapper {
+  padding: 10px;
+}
+
+.afterplaybox-content {
+  background-color: #e6e6e6;
+  height: 150px;
+  padding: 15px 0;
+  font-size: 20px;
+  color: #7f7f7f;
+}
+
+.afterplay-item {
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.afterplay-item-active {
+  padding: 0 15px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #00b0f0;
+}
+
+
+.afterplaybox-label {
+  font-size: 1.4rem;
+  color: gray;
+  padding: 10px;
+}
+
+.beforeplay-box {
+  width: 50%;
+}
+
+.beforeplaybox-label {
+  font-size: 1.4rem;
+  color: gray;
+  padding: 10px;
+}
+
+.beforeplaybox-wrapper {
+  padding: 10px;
+}
+
+.beforeplaybox-content {
+  background-color: #e6e6e6;
+  height: 150px;
+  padding: 15px 0;
+  font-size: 20px;
+  color: #7f7f7f;
+}
+
+.beforeplay-item {
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.beforeplay-item-active {
+  padding: 0 15px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #00b0f0;
+}
+
