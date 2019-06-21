@@ -55,6 +55,7 @@ class SubMainTwo extends Component {
             <SketchPicker
               color={this.state.background}
               onChangeComplete={this.handleChangeComplete}
+              width={180}
             />
           </div>
           <div className="shape-box">

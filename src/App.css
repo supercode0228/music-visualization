@@ -15,28 +15,28 @@ h1 {
 
 .container {
   margin-top: 4rem;
-  width: 1600px;
 }
 
 .main {
   display: flex;
   flex-direction: row;
   background-color: #fff;
+  height: 1000px;
 }
 
 .sidebar-container {
-  width: 200px;
+  width: 180px;
 }
 
 .player-container {
   background-color: #000;
-  width: 1000px;
+  width: 700px;
   height: 700px;
 }
 
 .controlbox-container {
   padding: 1.3rem;
-  width: 500px;
+  width: 400px;
   height: 900px;
 }
 
